@@ -1,0 +1,157 @@
+body {
+  margin: 0;
+  font-family: 'Aldrich', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(212, 212, 212);
+  border: 20px solid #fff;
+  padding: 330px;
+  overflow-y: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.product-image img{
+  width: 150px;
+  height: 150px;
+  margin-bottom: 10px;
+}
+
+.Custom{
+  width: 300px;
+  height: 400px;
+  box-shadow: 3px 2px rgba(180, 180, 180, 0.3);
+  margin: 10px;
+  text-align: center;
+}
+
+.Custom button{
+  width: 100px;
+  position: absolute;
+  top: 260px;
+  left: 110px;
+  padding: 7px;
+  background-color: rgb(146, 11, 11);
+  border: none;
+  color: #e0e0e0;
+  font-weight: 700;
+  transition-duration: 2s;
+  box-shadow: inset -2px -2px rgba(124, 10, 10, 0.8);
+}
+
+.Custom button:hover{
+  animation: ray 2s infinite;
+  transform: scale(1.2);
+  transition-duration: 2s;
+  transition: 2s;
+}
+
+
+
+@keyframes ray{
+  20% {box-shadow: inset 20px 40px rgba(236, 37, 37, 0.8); }
+  40% {box-shadow: inset 20px 40px rgba(199, 0, 0, 0.8); }
+  100%{box-shadow: inset  40px 40px rgba(105, 6, 6, 0.2);}
+}
+
+.Menu-icon img{
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  background-color: #fff;
+  padding: 80px;
+}
+
+.Menu-icon{
+  background-color: #fff;
+  
+}
+
+.Menu li{
+  display: inline;
+  padding-left: 50px;
+}
+
+.Menu{
+  position: absolute;
+  top: 10%;
+  left: 15%;
+}
+
+.Logo img{
+  width: auto;
+  height: 50px;
+}
+
+.Logo{
+  position: absolute;
+  left: 25%;
+  top: 30%;
+  background-color: rgb(212, 212, 212);
+  padding-right: 50px;
+  padding-top: 30px;
+}
+
+.para{
+  width: 350px;
+}
+
+.sideimage img{
+  width: 800px;
+  height: auto;
+}
+
+.sideimage{
+  position: absolute;
+  top: 20px;
+  right: 0;
+  z-index: -1;
+}
+
+.linkbtn button{
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  left: 20%;
+  top: 90%;
+  color: rgb(0, 0, 0);
+  width: 140px;
+  font-weight: 700;
+  border-radius: 20px;
+  border: none;
+}
+.arrow img{
+  width: auto;
+  height: 20px;
+}
+
+.arrow-1{
+  position: absolute;
+  top: 91%;
+  left: 43%;
+  opacity: 0.6;
+}
+
+.arrow-2{
+  position: absolute;
+  top: 90%;
+  left: 38%;
+  opacity: 1;
+  transform: rotate(180deg);
+}
+
+.search img{
+  width: 20px;
+  height: 20px;
+}
+
+.search{
+  position: absolute;
+  top: 12%;
+  left: 90%;
+}
